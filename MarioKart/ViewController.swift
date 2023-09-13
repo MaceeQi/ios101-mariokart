@@ -98,9 +98,14 @@ class ViewController: UIViewController,
     // Exercise 4: Implement the `moveKart` function to move the kart based on the
     // location of the location of the gesture in the view
     private func moveKart(using gestureRecognizer: UIPanGestureRecognizer) {
-        let location = gestureRecognizer.location(in: view) // get the location of the gesture
-        let kartView = gestureRecognizer.view // get a reference to the kart
-        kartView?.center = location // move the kart to that location
+        // get the location of the gesture
+        let location = gestureRecognizer.location(in: view)
+        
+        // get a reference to the kart
+        let kartView = gestureRecognizer.view
+        
+        // move the kart to that location
+        kartView?.center = location
     }
   
     
