@@ -179,7 +179,7 @@ class ViewController: UIViewController,
     }
   
     
-    // Exercise 9: Have the karts race all at once to the finish line!
+    // Exercise 9: Have the karts race all at once to the finish line! (all same speed)
     // Tip: Use the `translate` function above
     private func raceKartsWithSameSpeed() {
         // move karts forward
@@ -189,7 +189,7 @@ class ViewController: UIViewController,
     }
   
     
-    // Exercise 10: Have the karts race all at once to the finish line!
+    // Exercise 10: Have the karts race all at once to the finish line! (all random speeds)
     // Tip: Use the `translate` function above
     private func raceKartsWithRandomizedSpeed() {
         // give each kart a random animation duration
