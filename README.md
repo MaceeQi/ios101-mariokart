@@ -1,8 +1,8 @@
-## Lab 1: Mario Kart Starter Project
+## Lab 1: Mario Kart
 
 ### Overview
 
-This is the starter project for iOS 101 Lab 1 Mario Kart
+This is the project for iOS 101 Lab 1 Mario Kart
 
 ### Features
 
